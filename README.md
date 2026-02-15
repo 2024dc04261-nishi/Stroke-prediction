@@ -33,15 +33,15 @@ Root/
 │   ├── naive_bayes.py                       # Training script for Naive Bayes
 │   ├── random_forest.py                     # Training script for Random Forest
 │   └── xgboost.py                           # Training script for XGBoost
-├── model_assets/
-│   ├── preprocessor.joblib                  # Saved transformation pipeline
-│   ├── model_metadata.json                  # Metrics & training history for the app
-│   └── *.joblib                             # Saved model weights (6 files)
 ├── app/
 │   ├── app.py                               # Main Streamlit application entry point
 │   ├── data_insights.py                     # Module for EDA visualizations
 │   ├── model_insights.py                    # Module for model metrics & curves
 │   └── inference.py                         # Module for real-time prediction
+│   ├── model_assets/
+│   │   ├── preprocessor.joblib              # Saved transformation pipeline
+│   │   ├── model_metadata.json              # Metrics & training history for the app
+│   │   └── *.joblib                         # Saved model weights (6 files)
 ├── Fullassignment.ipynb                     # Comprehensive notebook (EDA + Training)
 ├── requirements.txt                         # Dependency list
 └── README.md                                # Project documentation
